@@ -170,7 +170,7 @@ const TestimonialQuote = styled.div`
 
 const TestimonialAuthorName = styled.div`
   grid-area: name;
-  align-self: end;
+  align-self: start;
   font-weight: 600;
 `;
 
@@ -251,9 +251,6 @@ class AboutPage extends React.Component {
                 <TestimonialAuthorDesc>
                   {aboutPageData.testimonials[0].authorDesc}
                 </TestimonialAuthorDesc>
-                <TestimonialAuthorImg>
-                  <img src={MandyTestimonialPic} alt="Mandy Meindersma" />
-                </TestimonialAuthorImg>
               </div>
             </Fade>
           </TestimonialContainer>

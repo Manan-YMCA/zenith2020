@@ -111,8 +111,8 @@ class GenericAccordion extends React.Component {
       <ComponentContainer
         className={`${this.props.className} ${
           this.state.open ? 'selected' : ''
-        }`}
-        show={this.state.open}
+          }`}
+        show={this.state.open || this.props.open}
       >
         <AccordionLabel
           onClick={() =>

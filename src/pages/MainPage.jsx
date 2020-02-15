@@ -11,7 +11,7 @@ import GenericInput from '../components/GenericInput';
 // import firebaseConfig from '../../secretConfig';
 
 /* --- Images --- */
-import HeroImg from '../static/img/main/hero_rounded.png';
+import HeroImg from '../static/img/do.svg';
 import AbstractShape1 from '../static/img/shapes/main_about_middle_left@2x.png';
 
 /* --- Styles --- */

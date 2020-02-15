@@ -34,6 +34,7 @@ const CounterContainer = styled.div`
 
 const Counter = styled.span`
   grid-area: counter;
+  text-align:center
 
   ${mediaSize.tablet`
     font-size: 150%;
@@ -71,21 +72,24 @@ class StatCounter extends React.Component {
         delayedCall
         onChange={isVisible => this.handleVisibilityChange(isVisible)}
       >
-        <CounterContainer size={this.props.size} color={this.props.color}>
+       <CounterContainer size={this.props.size} color={this.props.color}>
           <Counter>
-            <CountUp
-              start={this.props.countStart || 0}
-              end={
-                this.state.scrolledTo
-                  ? this.props.countEnd || 100
-                  : this.props.countStart || 0
-              }
-              duration={this.props.countDuration || 5}
-              suffix={this.props.suffix}
-              ref={countUp => {
-                this.countUpRef = countUp;
-              }}
-            />
+            <div>
+              <CountUp
+                style={{ textAlign: "center" }}
+                start={this.props.countStart || 0}
+                end={
+                  this.state.scrolledTo
+                    ? this.props.countEnd || 100
+                    : this.props.countStart || 0
+                }
+                duration={this.props.countDuration || 5}
+                suffix={this.props.suffix}
+                ref={countUp => {
+                  this.countUpRef = countUp;
+                }}
+              />
+            </div>
           </Counter>
           <Desc>{this.props.children}</Desc>
         </CounterContainer>

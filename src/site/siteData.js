@@ -54,7 +54,10 @@ export const headerData = {
   actionButton: siteButtons.statusButton
 };
 
-export const footerdata = {};
+export const footerdata = {
+  address: "JCB University of Science and Technology, YMCA Faridabad, Sector 6, Faridabad"
+
+};
 
 export const mainPageData = {
   header: 'Be a part of the change.',
@@ -382,3 +385,19 @@ export const FAQPageData = {
     }
   }
 };
+
+
+export const Contact = {
+  numbers: [
+    {
+      name: "Riya Khajanchi",
+      phone: "+91 9910326642"
+    },
+    {
+      name: "Simran Nehra",
+      phone: "+91 9910326642"
+    }
+  ],
+  email: "manantechnosurge@gmail.com",
+  address: footerdata.address
+}

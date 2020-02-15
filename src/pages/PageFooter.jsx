@@ -183,7 +183,7 @@ class PageFooter extends React.Component {
               className="icons"
               src={InstaIcon}
               alt="Contact Icon."
-              onClick={() => window.open('https://www.instagram.com/manantechnosurge')}
+              onClick={() => window.open('https://www.instagram.com/equithon')}
             />
             <img
               className="icons"

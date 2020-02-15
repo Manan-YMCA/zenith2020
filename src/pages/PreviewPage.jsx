@@ -147,6 +147,7 @@ const StatCounterContainer = styled.div`
   display: inline-block;
   grid-area: ${props => props.gridArea};
   align-self: center;
+  
 
   color: ${props => props.color};
 
@@ -165,6 +166,7 @@ const StatCounterContainer = styled.div`
 
     ${mediaSize.phone`
       display: none;
+      text-align:center;
     `};
   }
 
@@ -172,6 +174,7 @@ const StatCounterContainer = styled.div`
   `};
 
   ${mediaSize.phone`
+  text-align:center;
   `};
 `;
 

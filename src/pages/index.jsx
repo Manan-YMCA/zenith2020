@@ -16,6 +16,7 @@ import AboutPage from './AboutPage';
 import PreviewPage from './PreviewPage';
 import SponsorsPage from './SponsorsPage';
 import FAQPage from './FAQPage';
+import Contact from "./Contact"
 
 /* --- Component [STATELESS] --- */
 export default () => (
@@ -30,6 +31,7 @@ export default () => (
       <PreviewPage />
       <SponsorsPage />
       <FAQPage />
+      <Contact />
       <PageFooter />
 
       <MobileView>

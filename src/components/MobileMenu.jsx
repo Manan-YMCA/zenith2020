@@ -40,7 +40,7 @@ const MenuBackground = styled.div`
   width: 200vw;
   height: 200vw;
   opacity: ${props => (props.open ? 0.975 : 1)};
-  background-color: #a16beb;
+  background-color: #3192ec;
   border-radius: 50%;
   position: absolute;
   z-index: 101;
