@@ -55,7 +55,7 @@ export const headerData = {
 };
 
 export const footerdata = {
-  address: "JCB University of Science and Technology, YMCA Faridabad, Sector 6, Faridabad"
+  address: "J.C. Bose University of Science and Technology, YMCA, NH-2, Sector-6, Mathura Road, Faridabad- 121006 Haryana (INDIA)"
 
 };
 
@@ -136,7 +136,7 @@ export const previewPageData = {
         start: 0,
         end: 20,
         suffix: '+',
-        textAbove: 'Participant in fun and coding events:',
+        textAbove: 'Participants in fun and programming events:',
         subtitle: 'Events',
         color: siteColors.lighterPurple,
         gridArea: 'statCategories'
@@ -387,7 +387,7 @@ export const FAQPageData = {
 };
 
 
-export const Contact = {
+export const Contact  = {
   numbers: [
     {
       name: "Riya Khazanchi",
@@ -395,7 +395,7 @@ export const Contact = {
     },
     {
       name: "Simran Chaudhary",
-      phone: "+91 9910326642"
+      phone: "+91 7015293921"
     }
   ],
   email: "manantechnosurge@gmail.com",
