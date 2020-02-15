@@ -11,7 +11,7 @@ export default () => (
     <title>Zenith</title>
     <meta
       name="description"
-      content="A social innovation hackathon like no other. Equithon is back for 2019."
+      content="A social innovation hackathon like no other. Zenith is back for 2020."
     />
     <meta
       name="google-site-verification"

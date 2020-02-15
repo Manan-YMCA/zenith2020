@@ -128,7 +128,7 @@ export const previewPageData = {
         subtitle: 'Attendees',
         gridArea: 'statAttendees'
       },
-      { start: 0, end:  3, subtitle: 'Days', gridArea: 'statDuration' },
+      { start: 0, end: 3, subtitle: 'Days', gridArea: 'statDuration' },
       {
         start: 0,
         end: 20,
@@ -148,20 +148,20 @@ export const previewPageData = {
     ],
     categories: [
       {
-        name: 'Presenter Event',
-        contents: <div style={{ fontWeight: 500 }}>Presenter Event</div>,
+        name: '12 hour Hackathon',
+        contents: <div style={{ fontWeight: 500 }}>12 hour Hackathon</div>,
         backgroundColor: '#E2D4F5',
         color: 'siteColors.offBlack'
       },
       {
         name: 'Xunbao quiz',
-        contents: <div style={{ fontWeight: 500 }}>Xunbao</div>,
+        contents: <div style={{ fontWeight: 500 }}>Xunbao quiz</div>,
         backgroundColor: '#AE85E6',
         color: 'white'
       },
       {
         name: 'Ar Treasure Hunt Event',
-        contents: <div style={{ fontWeight: 500 }}>Ar Treasure Event</div>,
+        contents: <div style={{ fontWeight: 500 }}>Ar Treasure Hunt Event</div>,
         backgroundColor: '#E2D4F5',
         color: 'siteColors.offBlack'
       },
@@ -189,7 +189,7 @@ export const previewPageData = {
         backgroundColor: '#AE85E6',
         color: 'white'
       },
-     
+
       {
         name: 'Move Mirror',
         contents: <div style={{ fontWeight: 500 }}>Move Mirror</div>,
@@ -263,7 +263,7 @@ export const sponsorsPageData = {
     {
       name: 'Coding Ninja',
       size: sponsorBubbleTiers.gold,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://www.codingninjas.com',
       imgSrc: require('../static/img/sponsors/logos/codingninja.svg'),
       color: '#fff',
       backgroundColor: '#f8c56d',
@@ -274,7 +274,7 @@ export const sponsorsPageData = {
     {
       name: 'CodeShala',
       size: sponsorBubbleTiers.gold,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://codeshala.org',
       imgSrc: require('../static/img/sponsors/logos/codeshala.png'),
       color: '#fff',
       backgroundColor: '#f8c56d',
@@ -285,7 +285,7 @@ export const sponsorsPageData = {
     {
       name: 'Linode',
       size: sponsorBubbleTiers.gold,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://www.linode.com/company/about/',
       imgSrc: require('../static/img/sponsors/logos/linode.png'),
       color: '#fff',
       backgroundColor: '#02b159',
@@ -296,7 +296,7 @@ export const sponsorsPageData = {
     {
       name: 'Coding Block',
       size: sponsorBubbleTiers.silver,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://codingblocks.com/',
       imgSrc: require('../static/img/sponsors/logos/codingblock.png'),
       color: '#fff',
       backgroundColor: '#cc0000',
@@ -307,7 +307,7 @@ export const sponsorsPageData = {
     {
       name: 'Sketch',
       size: sponsorBubbleTiers.silver,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://www.sketch.com/',
       imgSrc: require('../static/img/sponsors/logos/Sketch_Logo.svg'),
       color: '#fff',
       backgroundColor: '#feeeb7',
@@ -318,7 +318,7 @@ export const sponsorsPageData = {
     {
       name: 'Hacker Earth',
       size: sponsorBubbleTiers.silver,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://hackerearth.com/',
       imgSrc: require('../static/img/sponsors/logos/hackerearth.svg'),
       color: '#fff',
       backgroundColor: 'grey',
@@ -329,7 +329,7 @@ export const sponsorsPageData = {
     {
       name: 'Gitlab',
       size: sponsorBubbleTiers.silver,
-      link: 'https://www.stickermule.com/ca',
+      link: 'https://gitlab.com/',
       imgSrc: require('../static/img/sponsors/logos/gitlabo.png'),
       color: '#fff',
       backgroundColor: '#fca326',
