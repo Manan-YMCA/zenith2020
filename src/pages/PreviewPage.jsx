@@ -214,14 +214,14 @@ const CategoriesContainer = styled.div`
 `;
 
 const StatBubbleContainer = styled.div`
-  width: 10%;
+  width: 20%;
   height: 100%;
   position: relative;
 
   & > div {
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 50%;
     top: ${props => `${props.offset}%`};
     transform: translateX(-50%) translateZ(0);
 
@@ -368,7 +368,7 @@ class PreviewPage extends React.Component {
                             >
                               <div>
                                 <FloatingBubble
-                                  size="10vw"
+                                  size="13vw"
                                   backgroundColor={
                                     categoryBubble.backgroundColor
                                   }
