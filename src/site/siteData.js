@@ -66,7 +66,7 @@ export const mainPageData = {
 export const aboutPageData = {
   header: 'What is Zenith?',
   desc:
-    'Zenith is a student-run series of events held at the J.C Bose University where participants create solutions for a variety of challenges. Our goal is to create an inclusive environment where all attendees feel comfortable learning, sharing their ideas, and developing something amazing that can improve the world around us.',
+    'Zenith is a student-run series of events held at the J.C Bose University, YMCA where participants create solutions for a variety of challenges. Our goal is to create an inclusive environment where all attendees feel comfortable learning, sharing their ideas, and developing something amazing that can improve the world around us.',
   testimonials: [
     {
       authorName: 'Milind Bishnoi',
@@ -81,7 +81,7 @@ export const previewPageData = {
   header: "What's in store?",
   previewDesc: [
     'Whether you’re a talented and curious beginner who wants to learn more about technology and its role in improving social equity, or a veteran of the hackathon scene looking for a unique challenge, Zenith invites you to take part and work towards a brighter future.',
-    'We want you to improve the world and yourself in the process; at the event, you’ll encounter enriching workshops, fun activities, and the chance to work with brilliant idea and technical mentors, fellow hackers, and professionals in various fields.'
+    'We want you to improve the world and yourself in the process; at the event, you’ll encounter enriching competitions, fun challenges, and the chance to work on brilliant ideas with technical mentors, fellow hackers, and professionals in various fields.'
   ],
   lastYear: {
     header: 'A Look Back at 2019',
@@ -100,7 +100,7 @@ export const previewPageData = {
         desc: 'Events',
         contents: (
           <div>
-            10+ fun and coding events
+            10+ fun and programming events
           </div>
         ),
         backgroundColor: '#E2D4F5',
@@ -128,7 +128,7 @@ export const previewPageData = {
         subtitle: 'Attendees',
         gridArea: 'statAttendees'
       },
-      { start: 0, end: 24 * 3, subtitle: 'Hours', gridArea: 'statDuration' },
+      { start: 0, end:  3, subtitle: 'Days', gridArea: 'statDuration' },
       {
         start: 0,
         end: 20,
@@ -154,13 +154,13 @@ export const previewPageData = {
         color: 'siteColors.offBlack'
       },
       {
-        name: 'Xunbao',
+        name: 'Xunbao quiz',
         contents: <div style={{ fontWeight: 500 }}>Xunbao</div>,
         backgroundColor: '#AE85E6',
         color: 'white'
       },
       {
-        name: 'Ar Treasure Event',
+        name: 'Ar Treasure Hunt Event',
         contents: <div style={{ fontWeight: 500 }}>Ar Treasure Event</div>,
         backgroundColor: '#E2D4F5',
         color: 'siteColors.offBlack'
@@ -189,6 +189,7 @@ export const previewPageData = {
         backgroundColor: '#AE85E6',
         color: 'white'
       },
+     
       {
         name: 'Move Mirror',
         contents: <div style={{ fontWeight: 500 }}>Move Mirror</div>,
@@ -345,12 +346,12 @@ export const FAQPageData = {
     {
       question: 'What exactly do you do at Zenith?',
       answer:
-        'You’ll get the chance to make a difference in the world! Over the course of a 72 hours, you and your team will participate in varous fun and learning activities.'
+        'Over the course of 3 days, you and your team will participate in varous enriching and exciting challenges including coding contests, 8-hour hackathon and various other fun activities.'
     },
     {
       question: 'When is Zenith happening this year?',
       answer:
-        'Save the date! Zenith will be held on April 11-13, 2020 at the J.C Bose University. '
+        'Save the date! Zenith will be held on April 11-13, 2020 at the J.C Bose University, YMCA, Faridabad. '
     },
     {
       question: "Who's able to attend?",
@@ -358,9 +359,9 @@ export const FAQPageData = {
         'As long as you’re currently enrolled in a institution or a local high school, we’d love to see you at the events as a hacker! If you’re not, don’t worry - you’ll have the chance to share your knowledge as a mentor or volunteer.'
     },
     {
-      question: 'How is Zenith different from other hackathons?',
+      question: 'How is Zenith-Hackathon different from other hackathons?',
       answer:
-        'Zenith is one of its kind in the hackathon community! We are a non-overnight hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
+        'Zenith is one of its kind in the hackathon community! We are a 8-hour hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
     },
     {
       question: 'When will applications open for 2020?',
@@ -376,7 +377,7 @@ export const FAQPageData = {
   FAQAction: {
     actionText: 'Have another burning question?',
     link: {
-      text: "Talk to our team (we don't bite).",
+      text: "Talk to our team.",
       to: 'mailto: manantechnosurge@gmail.com'
     }
   }
