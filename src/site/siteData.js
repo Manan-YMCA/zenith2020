@@ -7,11 +7,11 @@ export const siteColors = {
   warning: '#F4A867',
   error: '#F07285',
 
-  darkerPurple: '#854DD0',
+  darkerPurple: '#60cbec',
   primary: '#ffffff',
-  lighterPurple: '#E2D4F5',
+  lighterPurple: '#5fbae9',
 
-  darkerBlue: '#4270DE',
+  darkerBlue: '#66a4d8',
   secondary: '#4B97E0',
   lighterBlue: '#A9C2F8'
 };
@@ -93,7 +93,7 @@ export const previewPageData = {
             400+ participants
           </div>
         ),
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
       {
@@ -103,7 +103,7 @@ export const previewPageData = {
             10+ fun and programming events
           </div>
         ),
-        backgroundColor: '#E2D4F5',
+        backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
       {
@@ -113,13 +113,13 @@ export const previewPageData = {
             Prizes worth 50,000 plus to win.
           </div>
         ),
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
     ]
   },
   thisYear: {
-    header: 'A Sneak Peek At 2020',
+    header: 'A Look At 2019',
     statCounters: [
       {
         start: 0,
@@ -135,7 +135,7 @@ export const previewPageData = {
         suffix: '+',
         textAbove: 'Participant in fun and coding events:',
         subtitle: 'Events',
-        color: '#854dd0',
+        color: siteColors.lighterPurple,
         gridArea: 'statCategories'
       },
       {
@@ -150,56 +150,56 @@ export const previewPageData = {
       {
         name: '12 hour Hackathon',
         contents: <div style={{ fontWeight: 500 }}>12 hour Hackathon</div>,
-        backgroundColor: '#E2D4F5',
+        backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
       {
         name: 'Xunbao quiz',
         contents: <div style={{ fontWeight: 500 }}>Xunbao quiz</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
       {
         name: 'Ar Treasure Hunt Event',
         contents: <div style={{ fontWeight: 500 }}>Ar Treasure Hunt Event</div>,
-        backgroundColor: '#E2D4F5',
+        backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
       {
         name: 'Code Xplode',
         contents: <div style={{ fontWeight: 500 }}>Code Xplode</div>,
-        backgroundColor: '#E2D4F5',
+        backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
       {
         name: 'Vr Gaming',
         contents: <div style={{ fontWeight: 500 }}>Vr Gaming</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
       {
         name: 'PS4 Gaming',
         contents: <div style={{ fontWeight: 500 }}>PS4 Gaming</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
       {
         name: 'Lan Gaming',
         contents: <div style={{ fontWeight: 500 }}>Lan Gaming</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
 
       {
         name: 'Move Mirror',
         contents: <div style={{ fontWeight: 500 }}>Move Mirror</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       },
       {
         name: 'Drone Racing',
         contents: <div style={{ fontWeight: 500 }}>Drone Racing</div>,
-        backgroundColor: '#AE85E6',
+        backgroundColor: siteColors.darkerBlue,
         color: 'white'
       }
     ]

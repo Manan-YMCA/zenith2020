@@ -280,44 +280,6 @@ class PreviewPage extends React.Component {
             </PageDesc>
           </Fade>
 
-          <SubHeader>{previewPageData.lastYear.header}</SubHeader>
-          <LookBackContainer>
-            <Zoom cascade duration={1500}>
-              <div>
-                {previewPageData.lastYear.statBubbles.map((bubble, i) => {
-                  const isEvenOffset = i % 2 === 0;
-                  const rotationOffset = Math.random() * (10 - -10) + -10;
-                  const mobileTopOffset = i;
-                  const phoneBubbleOffset = isEvenOffset
-                    ? Math.random() * (15 - 0) + 0
-                    : Math.random() * (87 - 83) + 83;
-                  const bubbleOffset = isEvenOffset
-                    ? Math.random() * (10 - 5) + 5
-                    : Math.random() * (0 - -10) + -10;
-
-                  return (
-                    <StatBubbleContainer
-                      key={bubble.desc}
-                      offset={bubbleOffset}
-                      mobileTopOffset={mobileTopOffset}
-                      mobileOffset={phoneBubbleOffset}
-                    >
-                      <div>
-                        <FloatingBubble
-                          size="20vw"
-                          backgroundColor={bubble.backgroundColor}
-                          color={bubble.color}
-                          rotate={rotationOffset}
-                        >
-                          {bubble.contents}
-                        </FloatingBubble>
-                      </div>
-                    </StatBubbleContainer>
-                  );
-                })}
-              </div>
-            </Zoom>
-          </LookBackContainer>
 
           <SubHeader>{previewPageData.thisYear.header}</SubHeader>
           <Fade>
@@ -349,7 +311,7 @@ class PreviewPage extends React.Component {
                         const rotationOffset = Math.random() * (10 - -10) + -10;
                         const mobileTopOffset =
                           isEvenOffset &&
-                          i + 1 !== previewPageData.thisYear.categories.length
+                            i + 1 !== previewPageData.thisYear.categories.length
                             ? 0
                             : -2;
                         const bubbleOffset = isEvenOffset
