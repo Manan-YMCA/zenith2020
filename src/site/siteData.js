@@ -60,9 +60,9 @@ export const footerdata = {
 };
 
 export const mainPageData = {
-  header: 'Be a part of the change.',
+  header: 'A Carnival for Technofanatics',
   actionText:
-    'Join us in working towards social equity at Zenith on 11 April to 13 April, 2020.',
+    'Join us in this catalogue of exciting events hosted by Manan, the technical society of J.C. BUST, YMCA from 11 April to 13 April 2020.',
   actionButton: siteButtons.contactButton
 };
 
@@ -349,7 +349,7 @@ export const FAQPageData = {
     {
       question: 'What exactly do you do at Zenith?',
       answer:
-        'Over the course of 3 days, you and your team will participate in varous enriching and exciting challenges including coding contests, 8-hour hackathon and various other fun activities.'
+        'Over the course of 3 days, you and your team will participate in various enriching and exciting challenges including coding contests, 12-hour hackathon and various other fun activities.'
     },
     {
       question: 'When is Zenith happening this year?',
@@ -364,7 +364,7 @@ export const FAQPageData = {
     {
       question: 'How is Zenith-Hackathon different from other hackathons?',
       answer:
-        'Zenith is one of its kind in the hackathon community! We are a 8-hour hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
+        'Zenith is one of its kind in the hackathon community! We are a 12-hour hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
     },
     {
       question: 'When will applications open for 2020?',
@@ -390,11 +390,11 @@ export const FAQPageData = {
 export const Contact = {
   numbers: [
     {
-      name: "Riya Khajanchi",
+      name: "Riya Khazanchi",
       phone: "+91 9910326642"
     },
     {
-      name: "Simran Nehra",
+      name: "Simran Chaudhary",
       phone: "+91 9910326642"
     }
   ],
