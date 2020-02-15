@@ -72,8 +72,8 @@ export const aboutPageData = {
     'Zenith is a student-run series of events held at the J.C Bose University, YMCA where participants create solutions for a variety of challenges. Our goal is to create an inclusive environment where all attendees feel comfortable learning, sharing their ideas, and developing something amazing that can improve the world around us.',
   testimonials: [
     {
-      authorName: 'Milind Bishnoi',
-      authorDesc: 'Zenith 2019 Category Winner',
+      authorName: '- Milind Bishnoi',
+      authorDesc: '(Zenith 2019 Category Winner)',
       authorQuote:
         'I was able to meet three amazing badass women who helped me grow and made me a better person. We all found our own strengths and we made something amazing together.'
     },
