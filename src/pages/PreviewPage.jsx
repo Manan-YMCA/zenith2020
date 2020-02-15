@@ -39,7 +39,7 @@ const ContentContainer = styled.div`
 const Header = styled.div`
   font-size: 2.5vw;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 
   ${mediaSize.tablet`
     font-size: 5vw;
@@ -71,7 +71,6 @@ const SubHeader = withReveal(
   styled.div`
     font-size: 2vw;
     font-weight: 500;
-    margin-bottom: 2vw;
     margin-top: 3vw;
 
     ${mediaSize.tablet`

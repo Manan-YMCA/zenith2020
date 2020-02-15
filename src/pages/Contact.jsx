@@ -325,7 +325,7 @@ class FAQPage extends React.Component {
                             </FAQAccordion>
                             <FAQAccordion
                                 className="accordion question"
-                                label={"Reach Us"}
+                                label={"Reach us at:"}
 
                             >
                                 <div className="contents">{Contact.address}</div>

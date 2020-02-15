@@ -29,7 +29,7 @@ const PageContainer = styled.header`
 
 const ContentContainer = styled.div`
   width: 80vw;
-  height: 6vh;
+  height: 9vh;
   padding-top: 4vh;
   margin: auto;
 `;

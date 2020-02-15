@@ -121,6 +121,7 @@ const MainDesc = styled.div`
 const TestimonialContainer = styled.div`
   grid-area: testimonial;
   align-self: start;
+  margin-top:2.5vh;
   margin-bottom: 5vh;
   width: 100%;
   right: 2.5vw;
@@ -128,7 +129,7 @@ const TestimonialContainer = styled.div`
   z-index: 1;
   top: -2em;
 
-  font-size: 1.3vw;
+  font-size: 1vw;
 
   & > div {
     display: grid;

@@ -111,7 +111,7 @@ const SponsorUsPleaseContainer = styled.div`
   & div.action-text {
     font-weight: 500;
     padding-bottom: 5px;
-    font-size: 1.5vw;
+    font-size: 2vw;
 
     ${mediaSize.tablet`
       font-size: 2.5vw;
