@@ -161,32 +161,17 @@ class GenericButton extends React.Component {
             onVerify={token => this.setState({ captchaToken: token })}
           />
         </GoogleReCaptchaProvider> */}
-        <div>
-          <Subtitle show={this.state.submitState < 0} error>
-            {this.props.submitError}
-          </Subtitle>
-          <Subtitle show={this.state.submitState > 0} success>
-            {this.props.submitSuccess}
-          </Subtitle>
-          <Subtitle show={this.state.submitState === 0}>
-            {this.props.submitText}
-          </Subtitle>
-        </div>
         <form
           data-netlify="true"
         >
           <InputBox
             placeholder={this.props.placeholderText}
-            onChange={e => this.setState({ inputContents: e.target.value })}
             color={this.props.backgroundColor}
             type="email"
-            value={this.state.inputContents}
-            className={this.state.inputContents.length > 0 ? 'filled' : ''}
           />
           <InputButton
             backgroundColor={this.props.backgroundColor}
             color={this.props.color}
-            className={this.state.inputContents.length > 0 ? 'filled' : ''}
           >
             {this.props.buttonText}
           </InputButton>
