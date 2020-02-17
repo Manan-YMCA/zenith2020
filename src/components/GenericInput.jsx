@@ -169,8 +169,10 @@ class GenericButton extends React.Component {
             placeholder={this.props.placeholderText}
             color={this.props.backgroundColor}
             type="email"
+            name="email"
           />
           <InputButton
+          type="submit"
             backgroundColor={this.props.backgroundColor}
             color={this.props.color}
           >
