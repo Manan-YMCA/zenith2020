@@ -163,6 +163,7 @@ class GenericButton extends React.Component {
         </GoogleReCaptchaProvider> */}
         <form
           data-netlify="true"
+          name="contact" method="POST"
         >
           <InputBox
             placeholder={this.props.placeholderText}
