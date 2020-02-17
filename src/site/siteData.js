@@ -62,7 +62,7 @@ export const footerdata = {
 export const mainPageData = {
   header: 'A Carnival for Technofanatics',
   actionText:
-    'Join us in this catalogue of exciting events hosted by Manan, the technical society of J.C. BUST, YMCA from 11 April to 13 April 2020.',
+    'Join us in this catalogue of exciting events hosted by Manan, the technical society of J.C. Bose UST, YMCA from 11 April to 13 April 2020.',
   actionButton: siteButtons.contactButton
 };
 
