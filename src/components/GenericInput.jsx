@@ -136,23 +136,7 @@ It must be passed in a click handler to function properly.
 class GenericButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      inputContents: '',
-      captchaToken: '',
-      submitState: 0
-    };
-    this.handleSubmit = props.submit;
   }
-
-  showSubmitState(success) {
-    const newSubmitState = success ? 1 : -1;
-    setTimeout(() => {
-      // show state for 2 seconds, then fade back
-      this.setState({ submitState: newSubmitState });
-      setTimeout(() => this.setState({ submitState: 0 }), 2000);
-    }, 200);
-  }
-
   render() {
     return (
       <ComponentContainer className={this.props.className}>
@@ -165,6 +149,13 @@ class GenericButton extends React.Component {
           data-netlify="true"
           name="contact" method="POST"
         >
+
+          <input
+            placeholder={this.props.placeholderText}
+            hidden
+            type="email"
+            name="email"
+          />
           <InputBox
             placeholder={this.props.placeholderText}
             color={this.props.backgroundColor}
@@ -172,7 +163,7 @@ class GenericButton extends React.Component {
             name="email"
           />
           <InputButton
-          type="submit"
+            type="submit"
             backgroundColor={this.props.backgroundColor}
             color={this.props.color}
           >
