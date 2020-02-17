@@ -145,7 +145,7 @@ class GenericButton extends React.Component {
             onVerify={token => this.setState({ captchaToken: token })}
           />
         </GoogleReCaptchaProvider> */}
-        <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+        <form>
           <input type="hidden" name="bot-field" />
 
 
