@@ -51,8 +51,8 @@ const Subtitle = styled.span`
     props.success
       ? props.theme.secondary
       : props.error
-      ? props.theme.error
-      : props.theme.offBlack};
+        ? props.theme.error
+        : props.theme.offBlack};
 
   ${'' /* eslint-enable */}
 `;
@@ -173,15 +173,7 @@ class GenericButton extends React.Component {
           </Subtitle>
         </div>
         <form
-          onSubmit={e => {
-            e.preventDefault();
-            const submitReturn = this.handleSubmit(
-              this.state.inputContents,
-              this.state.captchaToken
-            );
-            this.setState({ inputContents: '' });
-            this.showSubmitState(submitReturn);
-          }}
+          data-netlify="true"
         >
           <InputBox
             placeholder={this.props.placeholderText}
