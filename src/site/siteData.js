@@ -62,7 +62,7 @@ export const footerdata = {
 export const mainPageData = {
   header: 'A Carnival for Technofanatics',
   actionText:
-    'Join us in this catalogue of exciting events hosted by Manan, the technical society of J.C. Bose UST, YMCA from 21 April to 23 April 2020.',
+    'Join us in this catalogue of exciting events hosted by Manan, the technical society of J.C. Bose UST, YMCA from April 8, 2021 to April 10, 2021.',
   actionButton: siteButtons.contactButton
 };
 
@@ -72,10 +72,10 @@ export const aboutPageData = {
     'Zenith is a student-run series of events held at the J.C Bose University, YMCA where participants create solutions for a variety of challenges. Our goal is to create an inclusive environment where all attendees feel comfortable learning, sharing their ideas, and developing something amazing that can improve the world around us.',
   testimonials: [
     {
-      authorName: '- Milind Bishnoi',
+      authorName: '- Anshul Goyal',
       authorDesc: '(Zenith 2019 Category Winner)',
       authorQuote:
-        'I was able to meet three amazing badass women who helped me grow and made me a better person. We all found our own strengths and we made something amazing together.'
+        'I was able to meet some great coders from different colleges. The mentors in hackathon gave me some knowledge I will carry forever.'
     },
   ]
 };
@@ -87,7 +87,7 @@ export const previewPageData = {
     'We want you to improve the world and yourself in the process; at the event, you’ll encounter enriching competitions, fun challenges, and the chance to work on brilliant ideas with technical mentors, fellow hackers, and professionals in various fields.'
   ],
   lastYear: {
-    header: 'A Look Back at 2019',
+    header: 'A Look Back at 2020',
     statBubbles: [
       {
         desc: 'Participation',
@@ -122,11 +122,11 @@ export const previewPageData = {
     ]
   },
   thisYear: {
-    header: 'A Look At 2019',
+    header: 'A Look At 2021',
     statCounters: [
       {
         start: 0,
-        end: 400,
+        end: 500,
         suffix: '+',
         subtitle: 'Attendees',
         gridArea: 'statAttendees'
@@ -134,7 +134,7 @@ export const previewPageData = {
       { start: 0, end: 3, subtitle: 'Days', gridArea: 'statDuration' },
       {
         start: 0,
-        end: 20,
+        end: 15,
         suffix: '+',
         textAbove: 'Participants in fun and programming events:',
         subtitle: 'Events',
@@ -151,7 +151,7 @@ export const previewPageData = {
     ],
     categories: [
       {
-        name: '12 hour Hackathon',
+        name: '24 hour Hackathon',
         contents: <div style={{ fontWeight: 500 }}>12 hour Hackathon</div>,
         backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
@@ -163,7 +163,7 @@ export const previewPageData = {
         color: 'white'
       },
       {
-        name: 'Ar Treasure Hunt Event',
+        name: 'Ar Treasure Hunt',
         contents: <div style={{ fontWeight: 500 }}>Ar Treasure Hunt Event</div>,
         backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
@@ -175,7 +175,7 @@ export const previewPageData = {
         color: 'siteColors.offBlack'
       },
       {
-        name: 'Vr Gaming',
+        name: 'VR Gaming',
         contents: <div style={{ fontWeight: 500 }}>Vr Gaming</div>,
         backgroundColor: siteColors.darkerBlue,
         color: 'white'
@@ -349,12 +349,12 @@ export const FAQPageData = {
     {
       question: 'What exactly do you do at Zenith?',
       answer:
-        'Over the course of 3 days, you and your team will participate in various enriching and exciting challenges including coding contests, 12-hour hackathon and various other fun activities.'
+        'Over the course of 3 days, you and your team will participate in various enriching and exciting challenges including coding contests, 24-hour hackathon and various other fun activities.'
     },
     {
       question: 'When is Zenith happening this year?',
       answer:
-        'Save the date! Zenith will be held on April 11-13, 2020 at the J.C Bose University, YMCA, Faridabad. '
+        'Save the date! Zenith will be held on April 8-10, 2021 at the J.C Bose University, YMCA, Faridabad. '
     },
     {
       question: "Who's able to attend?",
@@ -364,10 +364,10 @@ export const FAQPageData = {
     {
       question: 'How is Zenith-Hackathon different from other hackathons?',
       answer:
-        'Zenith is one of its kind in the hackathon community! We are a 12-hour hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
+        'Zenith is one of its kind in the hackathon community! We are a 24-hour hackathon and our categories are targeted specifically at tackling today’s most pressing social equity issues.'
     },
     {
-      question: 'When will applications open for 2020?',
+      question: 'When will applications open for 2021?',
       answer:
         'Applications will be live later this term. Be sure to subscribe to our mailing list and/or follow us on our social media platforms to stay updated!'
     },
@@ -390,12 +390,12 @@ export const FAQPageData = {
 export const Contact  = {
   numbers: [
     {
-      name: "Riya Khazanchi",
-      phone: "+91 9910326642"
+      name: "Ridham Bhat",
+      phone: "+91 9911473900"
     },
     {
-      name: "Simran Chaudhary",
-      phone: "+91 7015293921"
+      name: "Sahil Singh",
+      phone: "+91 7015266612"
     }
   ],
   email: "manantechnosurge@gmail.com",
