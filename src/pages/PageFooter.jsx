@@ -183,13 +183,13 @@ class PageFooter extends React.Component {
               className="icons"
               src={InstaIcon}
               alt="Contact Icon."
-              onClick={() => window.open('https://www.instagram.com/equithon')}
+              onClick={() => window.open('https://www.instagram.com/manantechnosurge')}
             />
             <img
               className="icons"
               src={FacebookIcon}
               alt="Contact Icon."
-              onClick={() => window.open('https://www.instagram.com/manantechnosurge')}
+              onClick={() => window.open('https://www.facebook.com/Manan.Ymcaust')}
             />
             <img
               className="icons"
@@ -207,13 +207,13 @@ class PageFooter extends React.Component {
               className="icons"
               src={EmailIcon}
               alt="Contact Icon."
-              onClick={() => window.open('mailto:hello@equithon.org')}
+              onClick={() => window.open('mailto:manantechnosurge@gmail.com')}
             />
             {/* eslint-enable */}
           </IconsContainer>
 
           <CopyrightContainer>
-            <div className="equithonCopyright">© Zenith 2020</div>
+            <div className="Manan Copyright">© Zenith 2021</div>
           </CopyrightContainer>
         </ContentContainer>
       </PageContainer>
