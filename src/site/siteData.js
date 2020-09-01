@@ -151,8 +151,8 @@ export const previewPageData = {
     ],
     categories: [
       {
-        name: '24 hour Hackathon',
-        contents: <div style={{ fontWeight: 500 }}>12 hour Hackathon</div>,
+        name: '12 hour Hackathon',
+        contents: <div style={{ fontWeight: 500 }}>24 hour Hackathon</div>,
         backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
@@ -163,8 +163,8 @@ export const previewPageData = {
         color: 'white'
       },
       {
-        name: 'Ar Treasure Hunt',
-        contents: <div style={{ fontWeight: 500 }}>Ar Treasure Hunt Event</div>,
+        name: 'Ar Treasure Hunt Event',
+        contents: <div style={{ fontWeight: 500 }}>Ar Treasure Hunt</div>,
         backgroundColor: siteColors.lighterBlue,
         color: 'siteColors.offBlack'
       },
